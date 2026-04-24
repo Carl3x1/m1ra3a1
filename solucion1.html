@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solución 1</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="btn btn-dark">Regresar</a>
+        </nav>
+        <main class="container-fluid">
+            <div class="row mt-2">
+                <div class="col-4 offset-4">
+                    <form class="border p-2">
+                        <label for="numCarnet" class="form-label">Carnet</label>
+                        <input type="number" name="numCarnet" id="numCarnet"
+                            class="form-control">
+                        <label for="txtNombre" class="form-label">Nombre</label>
+                        <input type="text" name="txtNombre" id="txtNombre"
+                            class="form-control mb-2">
+                        <button type="submit" name="btnVerificar"
+                            id="btnVerificar"
+                            class="form-control btn btn-dark">Verificar</button>
+                    </form>
+                    <p id="parrafoInformacion"
+                        class="bg-danger mt-4 text-white text-center">
+                        Datos:
+                    </p>
+                </div>
+            </div>
+        </main>
+        <script src="js/solucion1.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
